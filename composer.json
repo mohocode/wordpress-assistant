@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/moho-inc",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "moho-inc",
+  "authors": [
+    {
+      "name": "MohoCode",
+      "email": "mohocode@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/",
+      "Project\\": "Project/"
+    },
+    "files": [
+      "Functions/wp-helper.php",
+      "Functions/wc-helper.php",
+      "Functions/project.php"
+    ]
+  },
+  "require": {
+    "morilog/jalali": "3.*"
+  }
+}
